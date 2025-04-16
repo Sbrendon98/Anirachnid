@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variable files
+.env
+/backend/.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+venv/
+
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+# Scrapy stuff:
+.scrapy
