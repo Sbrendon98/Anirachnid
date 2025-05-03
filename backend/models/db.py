@@ -12,7 +12,7 @@ def db_connect():
     password = config.get("DATABASE_PASSWORD")
     dbname = config.get("DATABASE_NAME")
     port = config.get("DATABASE_PORT")
-    host = confib.get("DATABASE_HOST")
+    host = config.get("DATABASE_HOST")
     
     engine = create_engine(f"postgresql+psycopg2://{username}:{password}@{host}:{port}/{dbname}", echo=True)
     connection = engine.connect()
